@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  k8s_node_helloworld:
+    build:
+      context: ./k8s_helloworld
+    ports:
+      - "5000:3000"
