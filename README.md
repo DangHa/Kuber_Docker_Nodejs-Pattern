@@ -1,22 +1,22 @@
-## **Run** without Docker and Kubenetes
+## <ins>Run</ins> without Docker and Kubenetes
 
 ```console
 npm start
 ```
  
- ## **Build** with Dockerfile
+ ## <ins>Build</ins> with Dockerfile
 
 ```console
 docker build -t k8s_node_helloworld k8s_helloworld
 ```
 
-## **Run** with Docker-compose 
+## <ins>Run</ins> with Docker-compose 
 
 ```console
 docker-compose up
 ```
 
-## **Run** with Kubernetes
+## <ins>Run</ins> with Kubernetes
 
 Run minikube
 ```console
